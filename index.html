@@ -17,9 +17,7 @@
     <link rel="stylesheet" href="main.css">
 
     <!--Sets the favicon (browser icon)-->
-    <link
-        href="favicon.ico"
-        rel="icon" type="image/x-icon" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
 
     <!--Font Awesome code-->
     <script src="https://kit.fontawesome.com/f975939813.js" crossorigin="anonymous"></script>
@@ -33,40 +31,59 @@
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
 
+    <!-- Google Font = Golos Text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;900&display=swap" rel="stylesheet">
+
     <!--Link to CSS-->
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
 
-    <div class="sticky-top">
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark p-2">
-            <div class="container-fluid">
-                <ul class="navbar-nav fs-5">
-                    <a class="navbar-brand" href="#">
-                        <img src="images\Chloe Stuart.jpg"
-                            alt="Chloe Stuart" style="width:45px" class="rounded-pill">
-                    </a>
-                    <li class="nav-item px-1"><a class="nav-link" href="#Placement">Placement Year</a></li>
-                    <li class="nav-item px-1"><a class="nav-link" href="#Experience">Experience</a></li>
-                    <li class="nav-item px-1"><a class="nav-link" href="#Education">Education</a></li>
-                    <li class="nav-item px-1"><a class="nav-link" href="#Skills">Skills</a></li>
-                    <li class="nav-item px-1"><a class="nav-link" href="#Projects">Interests</a></li>
-                    <li class="nav-item px-1"><a class="nav-link" href="#Contact">Contact</a></li>
+    <!-- bootstrap sticky top navbar w dropdown-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#logo">
+                <img src="images\Chloe Stuart.jpg" class="logo" alt="Logo" width="45">
+                Chloe Stuart
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#Placement">Placement</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
                 </ul>
-                <ul class="navbar-nav navbar-right fs-6">
-                    <li><a class="nav-link px-3" href="https://www.linkedin.com/in/chloe-stuart11/" target="_blank">
-                            <i class="fa-brands fa-linkedin fa-2x"></i></a></li>
-                    <li><a class="nav-link px-3" href="https://open.spotify.com/user/stchloe?si=e2d930cd37194814"
-                            target="_blank">
-                            <i class="fa-brands fa-spotify fa-2x"></i></a></li>
-                    <li><a class="nav-link px-3" href="https://www.freecodecamp.org/stchloe" target="_blank">
-                            <i class="fa-brands fa-free-code-camp fa-2x"></i></a></li>
-                </ul>
+                <div class="navbar-nav ms-auto">
+                    <a href="https://www.linkedin.com/in/chloe-stuart11/" class="nav-link"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                    <a href="https://github.com/stchloe" class="nav-link"><i class="fa-brands fa-github fa-2x"></i></a>
+                    <a href="https://codepen.io/stchloe" class="nav-link"><i class="fa-brands fa-codepen fa-2x"></i></a>
+                    <a href="https://www.freecodecamp.org/stchloe" class="nav-link"><i class="fa-brands fa-free-code-camp fa-2x"></i></a>
+                </div>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
 
     <!--About container-->
 
@@ -179,9 +196,7 @@
                         <div class="timeline-slide-one row h-75 align-items-center">
                             <div class="col-md-5">
                                 <div class="timeline-slide-img">
-                                    <img class="rounded img-fluid"
-                                        src="images\JULY.jpg"
-                                        alt="Placement - July">
+                                    <img class="rounded img-fluid" src="images\JULY.jpg" alt="Placement - July">
                                 </div>
                             </div>
 
@@ -217,9 +232,7 @@
                         <div class="timeline-slide-two row h-75 align-items-center">
                             <div class="col-md-5">
                                 <div class="timeline-slide-img">
-                                    <img class="rounded img-fluid"
-                                        src="images\AUGUST.jpg"
-                                        alt="Placement - August">
+                                    <img class="rounded img-fluid" src="images\AUGUST.jpg" alt="Placement - August">
                                 </div>
                             </div>
 
@@ -253,8 +266,7 @@
                         <div class="timeline-slide-three row h-75 align-items-center">
                             <div class="col-md-5">
                                 <div class="timeline-slide-img">
-                                    <img class="rounded img-fluid"
-                                        src="images\SEPTEMBER.JPG"
+                                    <img class="rounded img-fluid" src="images\SEPTEMBER.JPG"
                                         alt="Placement - September">
                                 </div>
                             </div>
@@ -285,9 +297,7 @@
                         <div class="timeline-slide-four row h-75 align-items-center">
                             <div class="col-md-5">
                                 <div class="timeline-slide-img">
-                                    <img class="rounded img-fluid"
-                                        src=""
-                                        alt="Placement - October">
+                                    <img class="rounded img-fluid" src="" alt="Placement - October">
                                 </div>
                             </div>
 
@@ -316,15 +326,13 @@
                         <div class="timeline-slide-five row h-75 align-items-center">
                             <div class="col-md-5">
                                 <div class="timeline-slide-img">
-                                    <img class="rounded img-fluid"
-                                        src="images\NOVEMBER.png"
-                                        alt="Placement - November">
+                                    <img class="rounded img-fluid" src="images\NOVEMBER.png" alt="Placement - November">
                                 </div>
                             </div>
 
                             <div class="col-md-7">
                                 <div class="timeline-slide-text"></div>
-                                <p  >
+                                <p>
                                     November kicked off with a Careers Event at a local high school, where I got to chat
                                     with students about their aspirations and careers in Tech. This event inspired me to
                                     get more involved with social mobility efforts. I became a mentor with Zero Gravity,
@@ -389,12 +397,18 @@
                             <div class="col-md-7">
                                 <div class="timeline-slide-text"></div>
                                 <p>
-                                    I started January with a few days off and a few days working from home before returning to the office.
-                                    Preparations began for 3DExperience World and DriveWorks World content. I continud on with my Canopy
-                                    Project which needed to be finished before the start of 3DExperienceWorld in February. I also started
-                                    creating tutorial videos for DWW23, the first one being on how to drive Configuration Specific dimensions.
-                                    In the midst of all of this, myself and two other engineers began testing the DriveWorks PowerPack for
-                                    Microsoft Azure. With a couple of pushbacks, the PowerPack was ready to release into the wild by the end 
+                                    I started January with a few days off and a few days working from home before
+                                    returning to the office.
+                                    Preparations began for 3DExperience World and DriveWorks World content. I continud
+                                    on with my Canopy
+                                    Project which needed to be finished before the start of 3DExperienceWorld in
+                                    February. I also started
+                                    creating tutorial videos for DWW23, the first one being on how to drive
+                                    Configuration Specific dimensions.
+                                    In the midst of all of this, myself and two other engineers began testing the
+                                    DriveWorks PowerPack for
+                                    Microsoft Azure. With a couple of pushbacks, the PowerPack was ready to release into
+                                    the wild by the end
                                     of Jan! Toward the end of the month, I began my two-week stint on support.
                                 </p>
                             </div>
