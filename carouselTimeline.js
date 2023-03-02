@@ -1,4 +1,8 @@
 $(document).ready(function () {
+    
+    // Create array of objects with the properties {index, title, imgsrc, desc}
+    // Each object is a slider card
+
     var sliderCard = [
         {
             index: 1,
@@ -40,13 +44,19 @@ $(document).ready(function () {
             index: 7,
             title: "January",
             imgsrc: "images\January16_9.jpg",
-            desc:""
+            desc: "I started January with a few days off and a few days working from home before returning to the office. Preparations began for 3DExperience World and DriveWorks World content. I continued on with my Canopy Project which needed to be finished before the start of 3DExperienceWorld in February. I also started creating tutorial videos for DWW23, the first one being on how to drive Configuration Specific dimensions. In the midst of all of this, myself and two other engineers began testing the DriveWorks PowerPack for Microsoft Azure. With a couple of pushbacks, the PowerPack was ready to release into the wild by the end of Jan! Toward the end of the month, I began my two-week stint on support and took part in a presentation introducing the ESG Committee to the rest of the company."
         },
         {
             index: 8,
             title: "February",
             imgsrc: "images\February16_9.jpg",
-            desc: ""
+            desc: "support stint end, finished project for 3DExperience World, documentation for advanced feature parameter, more DWW Videos, Tech Team Social"
         }
-    ]
+    ];
+
+function carouselOutput() {
+    for (var i = 0; i < sliderCard.length; i++ ) {
+        var outputs = '<div'
+    }
+}
 })
