@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    
+
     // Create array of objects with the properties {index, title, imgsrc, desc}
     // Each object is a slider card
 
@@ -54,9 +54,27 @@ $(document).ready(function () {
         }
     ];
 
-function carouselOutput() {
-    for (var i = 0; i < sliderCard.length; i++ ) {
-        var outputs = '<div'
+    function carouselOutput() {
+
+        // for loop to loop through each object in the array, rendering the appropriate slide to be displayed
+        for (var i = 0; i < sliderCard.length; i++) {
+
+            // The variable `outputs` is used to render the HTML elements for each slide.
+            var outputs = '<div id="' + sliderCard[i].title + '">' + // The outermost div for rendering which slide to show
+                '<div class="singlecard">' +
+                '<div class="singlecard-header">' +
+                '<img data-lazy="' + sliderCard[i].imgsrc + '">' + // render slider image with lazy loading
+                '</div>' +
+                '<div class="singlecard-body">' +
+                '<div class="singlecard-content">' +
+                '<div class="singlecard-title"><strong>' + sliderCard[i].title + '</strong></div>' + // render month for slide
+                '<div class="singlecard-text"><p>' + sliderCard[i].desc + '</p></div></div></div></div></div>'; // render paragraph for slider
+                $('.slide-sec').append(outputs); // use append method to insert HTML elements to the slide-sec div in index.html
     }
-}
+    }
+    carouselOutput();
+
+    $('slide-sec').slick({
+        lazyLoad: 'ondemand',
+    })
 })
