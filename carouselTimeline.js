@@ -74,7 +74,10 @@ $(document).ready(function () {
     }
     carouselOutput();
 
-    $('slide-sec').slick({
+    $('.slide-sec').slick({
         lazyLoad: 'ondemand',
-    })
-})
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true
+    });
+});
