@@ -21,54 +21,29 @@ nav {
 }
 
 .main-sec {
-    display: block;
-    width: 75%;
     margin: 5% auto;
 }
 
 .slide-sec {
-    display: block;
     width: 100%;
 }
 
-.secfirst,
-.secsecond {
-    display: table-cell;
-    width: 50%;
-}
+/*Default styles for slider*/
 
 .singlecard {
-    display: table;
-    background: #d9d9d9;
+    display: flex;
+    flex-direction: row;
+}
+
+.singlecard-header {
     width: auto;
     height: auto;
 }
 
-.singlecard-header {
-    display: table-cell;
-    width: 50%;
-    vertical-align: middle;
-}
-
 .singlecard-header img {
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    display: block;
+    width: 60vw
 }
 
-.singlecard-body{
-    display: table-cell;
-    width: 50%;
-    vertical-align: middle;
-    padding: 10px 15px;
-  }
-
-  .singlecard-title{
-    font-size: 1.875rempx;
-    line-height: 1.4;
-  }
-  .singlecard-text{
-    font-size: 1.2rem;
-    line-height: 1.2;
-  }
+.singlecard-body {
+    padding-left: 1vw;
+}
