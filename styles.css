@@ -25,7 +25,7 @@ nav {
 }
 
 .slide-sec {
-    width: 100%;
+    padding: 5%;
 }
 
 /*Default styles for slider*/
@@ -36,14 +36,35 @@ nav {
 }
 
 .singlecard-header {
-    width: auto;
-    height: auto;
+    width: 50vw;
 }
 
 .singlecard-header img {
-    width: 60vw
+    width: 50vw;
+    max-width: 100%;
+    height: auto;
 }
 
 .singlecard-body {
     padding-left: 1vw;
+    padding-right: 1vw;
+    width: 50vw;
+}
+
+/*Media query for smaller screens*/
+
+@media screen and (max-width: 992px) {
+    .singlecard {
+        flex-direction: column;
+    }
+
+    .singlecard-header {
+        width: 100vw;
+    }
+
+    .singlecard-header img {
+        width: 100vw;
+        max-width: 100%;
+        height: auto;
+    }
 }

@@ -76,5 +76,7 @@ $(document).ready(function () {
 
     $('.slide-sec').slick({
         lazyLoad: 'ondemand',
+        prevArrow: '<button type="button" class="slick-prev" style="left:auto; right:10px;"><</button>',
+        nextArrow: '<button type="button" class="slick-next" style="left:auto; right:10px;">></button>'
     });
 });
