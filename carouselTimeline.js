@@ -51,6 +51,12 @@ $(document).ready(function () {
             title: "February",
             imgsrc: "images/February16_9.jpg",
             desc: "support stint end, finished project for 3DExperience World, documentation for advanced feature parameter, more DWW Videos, Tech Team Social"
+        },
+        {
+            index: 9,
+            title: "March",
+            imgsrc: "images/March16_9.jpg",
+            desc: "DWW Videos, Pro Certification Testing, QA, Placement tutor visit, Post dev import changes for project"
         }
     ];
 
@@ -76,7 +82,7 @@ $(document).ready(function () {
 
     $('.slide-sec').slick({
         lazyLoad: 'ondemand',
-        prevArrow: '<button type="button" class="slick-prev" style="left:auto; right:10px;"><</button>',
-        nextArrow: '<button type="button" class="slick-next" style="left:auto; right:10px;">></button>'
+        prevArrow: '<button type="button" class="slick-prev" ><</button>',
+        nextArrow: '<button type="button" class="slick-next" >></button>'
     });
 });

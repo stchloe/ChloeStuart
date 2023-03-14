@@ -22,6 +22,7 @@ nav {
 
 .main-sec {
     margin: 5% auto;
+    height: auto;
 }
 
 .slide-sec {
@@ -49,6 +50,20 @@ nav {
     padding-left: 1vw;
     padding-right: 1vw;
     width: 50vw;
+}
+
+.slick-prev,
+.slick-next {
+    display: inline-block;
+    text-align: center;
+}
+
+.slick-prev {
+    float: left;
+}
+
+.slick-next {
+    float: right;
 }
 
 /*Media query for smaller screens*/
