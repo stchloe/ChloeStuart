@@ -5,6 +5,8 @@
     font-weight: 400;
 }
 
+/* navbar styling */
+
 .logo {
     border-radius: 50%;
 }
@@ -19,6 +21,8 @@
 nav {
     font-size: 16px;
 }
+
+/*end of navbar styling*/
 
 .main-sec {
     margin: 5% auto;
