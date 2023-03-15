@@ -56,7 +56,7 @@ $(document).ready(function () {
             index: 9,
             title: "March",
             imgsrc: "images/March16_9.jpg",
-            desc: "DWW Videos, Pro Certification Testing, QA, Placement tutor visit, Post dev import changes for project"
+            desc: "DWW Videos, Pro Certification Testing, QA, Placement tutor visit, Post dev import changes for project, C certification, Front End Libraries certifications"
         }
     ];
 
@@ -85,4 +85,9 @@ $(document).ready(function () {
         prevArrow: '<button type="button" class="slick-prev" ><</button>',
         nextArrow: '<button type="button" class="slick-next" >></button>'
     });
+
+    // ammends height of .slick elements to match slides
+    $('.slick-slide').css('height', 'auto');
+    $('.slick-track').css('height', 'auto');
+    $('.slick-list').css('height', 'auto');
 });
