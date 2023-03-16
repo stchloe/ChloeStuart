@@ -87,7 +87,8 @@ $(document).ready(function () {
     });
 
     // ammends height of .slick elements to match slides
-    $('.slick-slide').css('height', 'auto');
-    $('.slick-track').css('height', 'auto');
-    $('.slick-list').css('height', 'auto');
+    $('.slick-slide').css('height', 'inherit', 'display', 'inherit', 'width', 'inherit');
+    $('.slick-track').css('height', 'inherit', 'display', 'inherit', 'width', 'inherit');
+    $('.slick-list').css('height', 'inherit', 'display', 'inherit', 'width', 'inherit');
+    $('.slick-slide img').css('display', 'inherit');
 });

@@ -24,14 +24,17 @@ nav {
 
 /*end of navbar styling*/
 
-/* .main-sec {
+.main-sec {
     margin: 5% auto;
     height: auto;
+    padding: 0 5% 0 5%;
+    justify-content: center;
+    align-items: center;
 }
 
 .slide-sec {
-    padding: 5%;
-} */
+    height: inherit;
+}
 
 /*Default styles for slider*/
 
@@ -56,10 +59,11 @@ nav {
     width: 50vw;
 }
 
+*/
 .singlecard-text {
     justify-content: center;
 }
-*/
+
 
 .slick-prev,
 .slick-next {
@@ -83,11 +87,11 @@ nav {
     }
 
     .singlecard-header {
-        width: 100vw;
+        width: 100%;
     }
 
     .singlecard-header img {
-        width: 100vw;
+        width: inherit;
         max-width: 100%;
         height: auto;
     }
