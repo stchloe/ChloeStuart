@@ -82,13 +82,10 @@ $(document).ready(function () {
 
     $('.slide-sec').slick({
         lazyLoad: 'ondemand',
-        prevArrow: '<button type="button" class="slick-prev" ><</button>',
-        nextArrow: '<button type="button" class="slick-next" >></button>'
+        arrows: false
     });
 
     // ammends height of .slick elements to match slides
     $('.slick-slide').css('height', 'inherit', 'display', 'inherit', 'width', 'inherit');
-    $('.slick-track').css('height', 'inherit', 'display', 'inherit', 'width', 'inherit');
-    $('.slick-list').css('height', 'inherit', 'display', 'inherit', 'width', 'inherit');
     $('.slick-slide img').css('display', 'inherit');
 });

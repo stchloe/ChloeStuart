@@ -22,14 +22,19 @@ nav {
     font-size: 16px;
 }
 
+.navbar-collapse {
+    display: flex;
+}
+
+.navbar-icons {
+    float: right;
+}
+
 /*end of navbar styling*/
 
 .main-sec {
     margin: 5% auto;
-    height: auto;
     padding: 0 5% 0 5%;
-    justify-content: center;
-    align-items: center;
 }
 
 .slide-sec {
@@ -41,47 +46,26 @@ nav {
 .singlecard {
     display: flex;
     flex-direction: row;
+    height: fit-content;
+}
+
+.singlecard-body {
+    height: fit-content;
 }
 
 .singlecard-header img {
     width: 50vw;
 }
 
-/* .singlecard-header img {
-    width: 50vw;
-    max-width: 100%;
-    height: auto;
-}
-
-.singlecard-body {
-    padding-left: 1vw;
-    padding-right: 1vw;
-    width: 50vw;
-}
-
-*/
-.singlecard-text {
-    justify-content: center;
-}
-
-
-.slick-prev,
-.slick-next {
-    display: inline-block;
+.singlecard-title {
     text-align: center;
+    font-size: 24px;
 }
 
-.slick-prev {
-    float: left;
-}
-
-.slick-next {
-    float: right;
-}
 
 /*Media query for smaller screens*/
 
- @media screen and (max-width: 992px) {
+ @media screen and (max-width: 1050px) {
     .singlecard {
         flex-direction: column;
     }
@@ -94,5 +78,9 @@ nav {
         width: inherit;
         max-width: 100%;
         height: auto;
+    }
+
+    .singlecard-text {
+        text-align: center;
     }
 } 
