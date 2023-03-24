@@ -39,19 +39,10 @@ nav {
 
 .slide-sec {
     height: inherit;
+    justify-content: center;
 }
 
 /*Default styles for slider*/
-
-.singlecard {
-    display: flex;
-    flex-direction: row;
-    height: fit-content;
-}
-
-.singlecard-body {
-    height: fit-content;
-}
 
 .singlecard-header img {
     width: 50vw;
@@ -66,9 +57,6 @@ nav {
 /*Media query for smaller screens*/
 
  @media screen and (max-width: 1050px) {
-    .singlecard {
-        flex-direction: column;
-    }
 
     .singlecard-header {
         width: 100%;

@@ -81,11 +81,10 @@ $(document).ready(function () {
     carouselOutput();
 
     $('.slide-sec').slick({
-        lazyLoad: 'ondemand',
-        arrows: false
+        dots: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
     });
-
-    // ammends height of .slick elements to match slides
-    $('.slick-slide').css('height', 'inherit', 'display', 'inherit', 'width', 'inherit');
-    $('.slick-slide img').css('display', 'inherit');
 });
