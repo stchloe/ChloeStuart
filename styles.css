@@ -30,24 +30,6 @@ nav {
 }
 /* Slider styling */
 
-.main-sec {
-  margin: 5% auto;
-  padding: 0 10% 0 10%;
+.intro-banner {
+  background-image: url("images/meBanner.jpg");
 }
-
-.slide-sec {
-  height: inherit;
-}
-
-.singlecard-header img {
-  width: 50vw;
-}
-
-.singlecard-title {
-  text-align: center;
-  font-size: 24px;
-}
-
-.singlecard-text {
-    text-align: center;
-  }
