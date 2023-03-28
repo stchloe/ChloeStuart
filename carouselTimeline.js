@@ -81,10 +81,14 @@ $(document).ready(function () {
     carouselOutput();
 
     $('.slide-sec').slick({
-        dots: true,
-        infinite: true,
-        speed: 500,
-        fade: true,
-        cssEase: 'linear'
+        lazyLoad: 'ondemand',
+        // speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        //autoplay: true,
+        // autoplaySpeed: 5000,
+        dots: false,
+        cssEase: 'linear',
+        arrows: false
     });
 });
