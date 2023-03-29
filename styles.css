@@ -28,19 +28,52 @@ nav {
 .navbar-icons {
   float: right;
 }
-/* Slider styling */
 
 .intro-banner {
   width: 100%;
   height:400px;
+  padding: 150px 0;
   background-image: url("/images/meBanner.jpg");
   background-position: center;
   background-size: cover;
+  text-align: center;
 }
 
 .banner-text {
-  margin: auto;
-  width: 50%;
-  text-align: center;
   color: rgb(255, 255, 255);
+}
+
+.section-banner {
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(141, 177, 139));
+  text-align: center;
+  color: rgb(63, 117, 66);
+  padding: 1% 0 1% 0;
+}
+
+#DWImage {
+  height: auto;
+  background-image: url("/images/myJourneyImages/DriveWorksLogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#ZGImage {
+  height: auto;
+  background-image: url("/images/myJourneyImages/ZeroGravity.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#UoLImage {
+  height: auto;
+  background-image: url("/images/myJourneyImages/UoLLogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#WilkoImage {
+  height: auto;
+  background-image: url("/images/myJourneyImages/WilkoLogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
