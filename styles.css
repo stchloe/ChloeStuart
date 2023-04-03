@@ -54,30 +54,21 @@ nav {
   padding: 1% 0 1% 0;
 }
 
-#DWImage {
-  height: auto;
-  background-image: url("/images/myJourneyImages/DriveWorksLogo.png");
-  background-size: contain;
-  background-repeat: no-repeat;
+#banner-images {
+  max-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#ZGImage {
-  height: auto;
-  background-image: url("/images/myJourneyImages/ZeroGravity.png");
-  background-size: contain;
-  background-repeat: no-repeat;
+.img-fluid {
+  max-width: 100%;
+  max-height: inherit;
 }
 
-#UoLImage {
+#journey-text {
+  margin: auto;
+  text-align: left;
+  align-items: center;
   height: auto;
-  background-image: url("/images/myJourneyImages/UoLLogo.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-#WilkoImage {
-  height: auto;
-  background-image: url("/images/myJourneyImages/WilkoLogo.png");
-  background-size: contain;
-  background-repeat: no-repeat;
 }
