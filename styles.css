@@ -21,12 +21,8 @@ nav {
   font-size: 16px;
 }
 
-.navbar-collapse {
-  display: flex;
-}
-
-.navbar-icons {
-  float: right;
+.nav-item {
+  float: left;
 }
 
 /* banner styling*/
