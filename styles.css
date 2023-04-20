@@ -21,8 +21,12 @@ nav {
   font-size: 16px;
 }
 
-.nav-item {
-  float: left;
+#navbarNav {
+  align-items: end;
+}
+
+.navbar-nav {
+  align-items: center;
 }
 
 /* banner styling*/
