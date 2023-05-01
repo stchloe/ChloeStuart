@@ -21,12 +21,12 @@ nav {
   font-size: 16px;
 }
 
-.navbar-collapse {
-  display: flex;
+#navbarNav {
+  align-items: end;
 }
 
-.navbar-icons {
-  float: right;
+.navbar-nav {
+  align-items: center;
 }
 
 /* banner styling*/
@@ -35,10 +35,9 @@ nav {
   width: 100%;
   height:400px;
   padding: 50px 0;
-  background: #fff url("/images/me_turn.jpg") center center/auto no-repeat local;
-  /* background: fixed;
-  background-position: bottom;
-  background-size: cover; */
+  background-image: url("/images/me_turn.jpg");
+  background-position: center;
+  background-size: cover;
   text-align: center;
 }
 
