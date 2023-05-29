@@ -36,8 +36,7 @@ nav {
   height:400px;
   padding: 50px 0;
   background-image: url("/images/me_turn.jpg");
-  background-position: center;
-  background-size: cover;
+  background-position: bottom;
   text-align: center;
 }
 
@@ -71,4 +70,17 @@ nav {
   text-align: left;
   align-items: center;
   height: auto;
+}
+
+h6 {
+  color: rgb(141, 141, 141);
+}
+
+/* Certification Cards*/
+.card-title {
+  font-weight: 600;
+}
+
+.card {
+  height: 250px;
 }
