@@ -84,3 +84,7 @@ h6 {
 .card {
   height: 250px;
 }
+
+#footer-icons {
+  background-color: rgb(160, 159, 159);
+}
