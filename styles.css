@@ -34,14 +34,6 @@ nav {
 .intro-banner {
   width: 100%;
   height:400px;
-  padding: 50px 0;
-  background-image: url("/images/me_turn.jpg");
-  background-position: bottom;
-  text-align: center;
-}
-
-.banner-text {
-  color: rgb(255, 255, 255);
 }
 
 /* my journey styling */
@@ -87,4 +79,8 @@ h6 {
 
 #footer-icons {
   background-color: rgb(160, 159, 159);
+}
+
+.credits, h6 {
+  color: rgb(51, 51, 51);
 }

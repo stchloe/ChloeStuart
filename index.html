@@ -33,6 +33,9 @@
     <!--Font Awesome javaScript-->
     <script src="https://kit.fontawesome.com/f975939813.js" crossorigin="anonymous"></script>
 
+    <!--p5.js CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+
 </head>
 
 <body>
@@ -70,13 +73,7 @@
     </nav>
 
     <!-- Intro banner, background image with intro text overlay -->
-    <div class="intro-banner">
-        <div class="banner-text">
-            <h2><strong>Hello!</strong></h2>
-            <h4><em>My name is</em></h4>
-            <h1><strong>Chloe Stuart</strong></h1>
-        </div>
-    </div>
+    <div class="intro-banner"></div>
 
     <!-- My journey section -->
     <div class="section-banner">
@@ -93,11 +90,10 @@
                     <h3><b>DriveWorks - Systems Developer</b></h3>
                     <h6><i>July 2023 - Present</i></h6>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, corporis assumenda in
-                        veniam
-                        provident excepturi sunt quod a veritatis, fugiat, labore molestias quidem reiciendis
-                        reprehenderit
-                        incidunt quibusdam ea ratione voluptatem?
+                        In April 2023, I completed a month-long secondment to the Systems Team, where I learnt all about
+                        the DriveWorks codebase, source control and coding standards. During this time, I wrote a
+                        PowerShell script to monitor our onternal systems using DriveWorks Integration Theme Technology
+                        and PRTG, the chosen Network Monitoring system for the company.
                     </p>
                 </div>
             </div>
@@ -107,7 +103,7 @@
                 </div>
                 <div id="journey-text" class="col-md-9 order-1 order-md-1">
                     <h3><b>DriveWorks - Applications Engineer</b></h3>
-                    <h6><i>July 2022 - June 2023</i></h6>\
+                    <h6><i>July 2022 - June 2023</i></h6>
                     <p>
                         As an Applications Engineer at DriveWorks as part of the Technical Team, I learnt a great deal
                         about how Software Development companies operate. This role required me to quickly advance my
@@ -241,7 +237,16 @@
                     <img src="images\Certifications\CSWA.png" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">SOLIDWORKS Associate</h5>
-                        <a href="#" class="btn btn-primary">Check it out <i class="fa fa-arrow-right"></i></a>
+                        <h6>Check it out by scanning the QR code <i class="fa fa-arrow-up"></i></h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-3">
+                <div class="card">
+                    <img src="images\Certifications\CSWP.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">SOLIDWORKS Professional</h5>
+                        <h6>Check it out by scanning the QR code <i class="fa fa-arrow-up"></i></h6>
                     </div>
                 </div>
             </div>
@@ -250,23 +255,28 @@
 
     <footer>
         <div class="container-fluid text-center p-4" id="footer-icons">
-            <div class="justify-content-md-center">
+            <div class="justify-content-center">
                 <h4><b>Where to find me:</b></h4>
             </div>
-            <div class="row justify-content-md-center p-2">
-                <div id="footer-icon" class="col-md-3"><a href="https://www.linkedin.com/in/chloe-stuart11/"><i
-                            class="fa-brands fa-linkedin fa-3x"></i></a></div>
-                <div id="footer-icon" class="col-md-3"><a href="https://github.com/stchloe"><i
-                            class="fa-brands fa-github fa-3x"></i></a>
-                </div>
-                <div id="footer-icon" class="col-md-3"><a href="https://codepen.io/stchloe"><i
-                            class="fa-brands fa-codepen fa-3x"></i></a>
-                </div>
-                <div id="footer-icon" class="col-md-3"><a href="https://www.freecodecamp.org/stchloe"><i
+            <div class="d-flex justify-content-center p-sm-2">
+                <!-- Use 'd-flex' and 'justify-content-center' classes -->
+                <div id="footer-icon" class="p-sm-2"><a href="https://www.linkedin.com/in/chloe-stuart11/"
+                        target="_blank"><i class="fa-brands fa-linkedin fa-3x"></i></a></div>
+                <div id="footer-icon" class="p-sm-2"><a href="https://github.com/stchloe" target="_blank"><i
+                            class="fa-brands fa-github fa-3x"></i></a></div>
+                <div id="footer-icon" class="p-sm-2"><a href="https://codepen.io/stchloe" target="_blank"><i
+                            class="fa-brands fa-codepen fa-3x"></i></a></div>
+                <div id="footer-icon" class="p-sm-2"><a href="https://www.freecodecamp.org/stchloe" target="_blank"><i
                             class="fa-brands fa-free-code-camp fa-3x"></i></a></div>
+            </div>
+            <div class="credits">
+                <h6><i>Website lovingly created by Chloe Stuart, 2023</i></h6>
             </div>
         </div>
     </footer>
+
+
+    <script src="myName.js"></script>
 
 </body>
 
